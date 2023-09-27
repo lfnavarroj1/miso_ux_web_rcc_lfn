@@ -1,0 +1,40 @@
+.altura-ventana{
+  height: 80vh;
+}
+
+.tarjeta{
+  height: 400px;
+  border: 1px #000000 solid;
+  border-radius: 15px;
+  background-color: #D1DFEC;
+
+}
+
+.letra_etiquetas{
+  font-size: 32px;
+}
+
+.etiqueta{
+  width: 482px;
+  height: 52;
+  /* border: 2px red solid; */
+}
+
+
+.cajas_texto{
+  width: 482px;
+  height: 52;
+  border: 1px #000000 solid;
+}
+
+.botones{
+  width: 280px;
+  height: 70px;
+  background-color: #013B70;
+  color: #FFFFFF;
+  border-radius: 15px;
+  border: none;
+}
+.botones:hover{
+  background-color: #708DA9;
+}
