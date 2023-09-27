@@ -1,0 +1,33 @@
+
+<div class="row">
+  <div class="col d-flex justify-content-center">
+    <div class="row card listado_formulas mt-3 ">
+      <div class="col">
+        <h5 class="row card-header titulo_listado">
+          Fórmulas médicas
+        </h5>
+
+        <div class="row formula d-flex align-items-center">
+          <div class="col-10">
+            Nombre del tratamiento
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-primary boton_formula" routerLink='/formulas-agregar'>
+              <img [src]="urlimgedit" alt="">
+            </button>
+            <button type="button" class="btn btn-primary boton_formula ms-3" routerLink='/formulas-agregar'>
+              <img [src]="urlimgeliminar" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4 ms-3">
+  <div class="col">
+    <button type="button" class="btn btn-primary boton mt-3" routerLink='/formulas-agregar'>Agregar</button>
+  </div>
+</div>
+

@@ -1,0 +1,12 @@
+.diseno_ventana{
+  border:1px #000000 solid;
+  width: 1366px;
+  height: 768px;
+  /* background: url(/src/assets/img/fondo_web.png); */
+}
+
+.margenes{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+

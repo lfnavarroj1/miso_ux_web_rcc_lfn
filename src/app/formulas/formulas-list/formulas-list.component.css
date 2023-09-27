@@ -1,0 +1,47 @@
+.listado_formulas{
+  width: 1278px;
+  height: 547px;
+  border: 1px #000000 solid;
+  border-radius: 15px;
+}
+
+.titulo_listado{
+  border: 1px #000000 solid;
+  font-size: 40px;
+  background-color: #2C4F70;
+  color: #FFFFFF;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.formula{
+  background-color: #D1DFEC;
+  height: 101px;
+  border: 1px #000000 solid;
+  font-size: 32px;
+
+}
+
+.boton_formula{
+  background-color: #013B70;
+  width: 68px;
+  height: 68px;
+}
+
+.boton_formula img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+.boton{
+  width: 280px;
+  height: 70px;
+  color: #FFFFFF;
+  font-size: 32px;
+  background-color: #013B70;
+}
+
+
+
+
