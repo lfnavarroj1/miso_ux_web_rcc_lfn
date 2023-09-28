@@ -1,53 +1,95 @@
 
 <div class="row">
   <div class="col-6">
-    <label for="inputPassword5" class="form-label">Usuario:</label>
-    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+    <label for="inputPassword5" class="form-label etiqueta">Nombre fórmula:</label>
+    <input type="text" id="inputPassword5" class="form-control cajadetexto" aria-describedby="passwordHelpBlock" value="Tratamiento para la gastroenteritis">
   </div>
-  <div class="col-6">
-    <button type="button" class="btn btn-primary" routerLink="/formulas-lista">Guardar fórmula</button>
-    <button type="button" class="btn btn-primary" routerLink="/formulas-lista">Cancelar</button>
+  <div class="col-6 d-flex align-items-end justify-content-end">
+    <button type="button" class="btn btn-primary botones me-4" routerLink="/formulas-lista">Guardar fórmula</button>
+    <button type="button" class="btn btn-primary botones me-4" routerLink="/formulas-lista">Cancelar</button>
   </div>
-</div>
-<div class="row">
-  <label for="inputPassword5" class="form-label">Usuario:</label>
-  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 </div>
 
 <div class="row">
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-      </tr>
-    </thead>
-    <tbody class="table-group-divider">
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="col">
+    <label for="inputPassword5" class="form-label etiqueta ">Descripción:</label>
+    <input type="text" id="inputPassword5" class="form-control campodescripcion" aria-describedby="passwordHelpBlock" value="Durante el tratamiento no consumir grasas">
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col">
+    <table class="table tabla">
+
+      <thead>
+        <tr class="alto_celdas">
+          <th scope="col" class="col1">Nombre medicamento</th>
+          <th scope="col" class="col2">Tomar cada</th>
+          <th scope="col" class="col2">Dosis</th>
+          <th scope="col" class="col2">Fecha inicio</th>
+          <th scope="col" class="col2">Hora inicio</th>
+        </tr>
+      </thead>
+
+      <tbody class="table-group-divider">
+        <tr class="alto_celdas mb-0">
+          <td class="celda_medicamento">Amplicilina 500 mg</td>
+          <td class="celda_medicamento">6 Horas</td>
+          <td class="celda_medicamento">2 Pastillas</td>
+          <td class="celda_medicamento">15/09/2023</td>
+          <td class="celda_medicamento">9:30</td>
+        </tr>
+        <tr></tr>
+
+      </tbody>
+
+    </table>
+  </div>
 </div>
 
 <div class="row">
-  <button type="button" class="btn btn-primary" routerLink='/agregar-medicina'>Agregar</button>
-  <button type="button" class="btn btn-primary">Editar</button>
-  <button type="button" class="btn btn-primary">Eliminar</button>
+  <div class="col-4"></div>
+  <div class="col-8 d-flex align-items-end justify-content-end">
+    <button type="button" class="btn btn-primary botones me-4" data-bs-toggle="modal" data-bs-target="#AgregarModal" >Agregar</button>
+    <button type="button" class="btn btn-primary botones me-4" data-bs-toggle="modal" data-bs-target="#AgregarModal">Editar</button>
+    <button type="button" class="btn btn-primary botones me-4">Eliminar</button>
+  </div>
+
 </div>
+
+
+<!-- Modal -->
+<div class=" col modal fade" id="AgregarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border: 2px green solid;">
+ <div class="row modal-dialog modal-lg">
+      <div class="col modal-content tarjeta">
+
+        <div class=" d-flex justify-content-center">
+          <div class="campo">
+
+
+            <label for="inputPassword5" class="form-label etiqueta_modal" >Nombre medicina:</label>
+            <input type="text" id="inputPassword5" class="form-control cajadetexto_modal" aria-describedby="passwordHelpBlock" value="Ampicilina 500mg">
+
+            <label for="inputPassword5" class="form-label etiqueta_modal">Tomar cada:</label>
+            <input type="text" id="inputPassword5" class="form-control cajadetexto_modal" aria-describedby="passwordHelpBlock" value="6 Horas">
+
+              <label for="inputPassword5" class="form-label etiqueta_modal">Observación:</label>
+              <input type="text" id="inputPassword5" class="form-control cajadetexto_modal" aria-describedby="passwordHelpBlock" value="Antes del almuerzo">
+
+              <label for="inputPassword5" class="form-label etiqueta_modal">Dosis</label>
+              <input type="text" id="inputPassword5" class="form-control cajadetexto_modal" aria-describedby="passwordHelpBlock" value="2 Pastillas">
+
+              <label for="inputPassword5" class="form-label etiqueta_modal">Fecha inicio</label>
+              <input type="text" id="inputPassword5" class="form-control cajadetexto_modal" aria-describedby="passwordHelpBlock" value="15/09/2023">
+
+              <label for="inputPassword5" class="form-label etiqueta_modal">Hora inicio:</label>
+              <input type="text" id="inputPassword5" class="form-control cajadetexto_modal" aria-describedby="passwordHelpBlock" value="9:30">
+
+
+              <button type="button" class="btn btn-primary botones_modal mt-4" data-bs-dismiss="modal">Agregar</button>
+              <button type="button" class="btn btn-primary botones_modal mt-4 ms-5" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+
+    </div>
+  </div>

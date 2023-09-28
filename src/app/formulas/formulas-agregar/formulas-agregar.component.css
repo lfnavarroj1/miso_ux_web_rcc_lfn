@@ -1,0 +1,131 @@
+@font-face {
+  font-family:"Zen Maru Gothic-Medium";
+  src: url('src/assets/fonts/ZenMaruGothic-Medium.ttf');
+}
+
+@font-face {
+  font-family:"Zen Maru Gothic-Light";
+  src: url('src/assets/fonts/ZenMaruGothic-Light.ttf');
+}
+
+@font-face {
+  font-family:"Zen Maru Gothic-Regular";
+  src: url('src/assets/fonts/ZenMaruGothic-Regular.ttf');
+}
+
+.etiqueta{
+  font-size: 32px;
+  width: 523px;
+  margin-left: 41px;
+}
+
+.cajadetexto{
+  width: 523px;
+  height: 52px;
+  font-size: 32px;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  margin-left: 41px;
+  font-family:"Zen Maru Gothic-Light";
+}
+
+.botones{
+  width: 280px;
+  height: 70px;
+  font-size: 32px;
+  background-color: #013B70;
+  color: #FFFFFF;
+  border-radius: 15px;
+  border:none;
+  font-family:"Zen Maru Gothic-Medium";
+}
+
+.campodescripcion{
+  width: 1268px;
+  height: 133px;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  font-size: 32px;
+  margin-left: 41px;
+  font-family:"Zen Maru Gothic-Light";
+}
+
+.tabla{
+  width: 1268px;
+  height: 250px;
+  border: 1px #000000 solid;
+  margin-left: 41px;
+}
+
+.alto_celdas{
+  height: 50px;
+}
+
+.col1{
+  width: 464px;
+  background-color: #2C4F70 ;
+  color: #FFFFFF;
+  border: 1px #000000 solid;
+  font-size: 32px;
+  font-family:"Zen Maru Gothic-Light";
+}
+.col2{
+  width: 201px;
+  background-color: #2C4F70 ;
+  color: #FFFFFF;
+  border: 1px #000000 solid;
+  font-size: 32px;
+  font-family:"Zen Maru Gothic-Light";
+}
+
+.celda_medicamento{
+  border: 1px #000000 solid;
+  font-size: 32px;
+  font-family:"Zen Maru Gothic-Light";
+}
+
+.tarjeta{
+  min-width: 871px;
+  height: 722px;
+  border: 1px #000000 solid;
+  border-radius: 15px;
+  background-color: #D1DFEC;
+}
+
+.cajadetexto_modal{
+  width: 673px;
+  height: 52px;
+  font-size: 32px;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  margin-top: 0px;
+  font-family:"Zen Maru Gothic-Light";
+}
+.etiqueta_modal{
+  font-size: 32px;
+  width: 673px;
+  margin-bottom: 0px;
+}
+
+.campo{
+  width: 673px;
+}
+
+.botones_modal{
+  width: 287px;
+  height: 70px;
+  font-size: 32px;
+  background-color: #013B70;
+  color: #FFFFFF;
+  border-radius: 15px;
+  border:none;
+  font-family:"Zen Maru Gothic-Medium";
+}
+
+.botones:hover{
+  background-color: #708DA9;
+}
+
+.botones_modal:hover{
+  background-color: #708DA9;
+}

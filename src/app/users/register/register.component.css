@@ -1,6 +1,19 @@
+@font-face {
+  font-family:"Zen Maru Gothic-Medium";
+  src: url('src/assets/fonts/ZenMaruGothic-Medium.ttf');
+}
+
+@font-face {
+  font-family:"Zen Maru Gothic-Light";
+  src: url('src/assets/fonts/ZenMaruGothic-Light.ttf');
+}
+
+
+
 .etiqueta{
   font-size: 32px;
   width: 526px;
+  font-family:"Zen Maru Gothic-Medium";
 
 }
 .caja_texto{
@@ -9,6 +22,7 @@
   font-size: 32px;
   border: 1px #000000 solid;
   border-radius: 5px;
+  font-family:"Zen Maru Gothic-Light"
 
 }
 
@@ -18,4 +32,13 @@
   background-color: #013B70;
   color: #FFFFFF;
   font-size: 32px;
+  border-radius: 15px;
+  border: none;
+  font-family:"Zen Maru Gothic-Medium";
 }
+
+.botones:hover{
+  background-color: #708DA9;
+}
+
+

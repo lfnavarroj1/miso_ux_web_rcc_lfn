@@ -1,3 +1,5 @@
+
+
 .diseno_ventana{
   border:1px #000000 solid;
   width: 1366px;
@@ -10,3 +12,9 @@
   margin-right: 10px;
 }
 
+.imgFondo {
+  background-image: url('src/assets/img/fondo_web.png'); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el elemento */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Fija la imagen en su posición mientras se desplaza la página */
+}

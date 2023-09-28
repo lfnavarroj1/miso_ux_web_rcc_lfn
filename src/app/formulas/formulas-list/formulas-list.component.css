@@ -1,3 +1,18 @@
+@font-face {
+  font-family:"Zen Maru Gothic-Medium";
+  src: url('src/assets/fonts/ZenMaruGothic-Medium.ttf');
+}
+
+@font-face {
+  font-family:"Zen Maru Gothic-Light";
+  src: url('src/assets/fonts/ZenMaruGothic-Light.ttf');
+}
+
+@font-face {
+  font-family:"Zen Maru Gothic-Regular";
+  src: url('src/assets/fonts/ZenMaruGothic-Regular.ttf');
+}
+
 .listado_formulas{
   width: 1278px;
   height: 547px;
@@ -12,6 +27,7 @@
   color: #FFFFFF;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  font-family:"Zen Maru Gothic-Regular";
 }
 
 .formula{
@@ -19,6 +35,7 @@
   height: 101px;
   border: 1px #000000 solid;
   font-size: 32px;
+  font-family:"Zen Maru Gothic-Light";
 
 }
 
@@ -26,6 +43,8 @@
   background-color: #013B70;
   width: 68px;
   height: 68px;
+  border: none;
+  border-radius: 15px;
 }
 
 .boton_formula img{
@@ -40,8 +59,17 @@
   color: #FFFFFF;
   font-size: 32px;
   background-color: #013B70;
+  border: none;
+  border-radius: 15px;
+  font-family:"Zen Maru Gothic-Medium";
 }
 
+.boton:hover{
+  background-color: #708DA9;
+}
 
+.boton_formula:hover{
+  background-color: #708DA9;
+}
 
 

@@ -1,3 +1,20 @@
+@font-face {
+  font-family:"Zen Maru Gothic-Medium";
+  src: url('src/assets/fonts/ZenMaruGothic-Medium.ttf');
+}
+
+@font-face {
+  font-family:"Zen Maru Gothic-Light";
+  src: url('src/assets/fonts/ZenMaruGothic-Light.ttf');
+}
+
+@font-face {
+  font-family:"Zen Maru Gothic-Regular";
+  src: url('src/assets/fonts/ZenMaruGothic-Regular.ttf');
+}
+
+
+
 .altura-ventana{
   height: 80vh;
 }
@@ -12,6 +29,7 @@
 
 .letra_etiquetas{
   font-size: 32px;
+  font-family: "Zen Maru Gothic-Medium";
 }
 
 .etiqueta{
@@ -25,6 +43,7 @@
   width: 482px;
   height: 52;
   border: 1px #000000 solid;
+  font-family: "Zen Maru Gothic-Light";
 }
 
 .botones{
@@ -38,3 +57,4 @@
 .botones:hover{
   background-color: #708DA9;
 }
+

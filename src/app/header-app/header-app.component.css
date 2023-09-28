@@ -1,3 +1,8 @@
+@font-face {
+  font-family:"Zen Maru Gothic-Regular";
+  src: url('src/assets/fonts/ZenMaruGothic-Regular.ttf');
+}
+
 .encabezado{
   background-color: #2C4F70;
   color: #FFFFFF;
@@ -6,10 +11,12 @@
 
 .tamano_pills{
   font-size: 40px;
+  font-family: "Zen Maru Gothic-Regular";
 }
 
 .tamano_cerrar_sesion{
   font-size: 24px;
+  font-family: "Zen Maru Gothic-Regular";
 }
 .color_letra{
   color: #FFFFFF;
