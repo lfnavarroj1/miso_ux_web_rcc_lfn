@@ -14,6 +14,12 @@ Entorno de trabajo : **Angular** - [Angular](https://angular.io/)
   
 28-Septiembre-2023.
 
+![image](https://github.com/lfnavarroj1/miso_ux_web_rcc_lfn/assets/111831086/424e377e-b934-4548-bd70-7368f7eb776b)
+
+![image](https://github.com/lfnavarroj1/miso_ux_web_rcc_lfn/assets/111831086/c1f5eec7-b869-4523-b531-139147346a7b)
+
+
+
 
 ### PillsWeb
 
